@@ -49,4 +49,4 @@ end
 
 gem 'rspec-rails'
 gem 'rack-test'
-gem 'sinatra'
+#gem 'sinatra'
