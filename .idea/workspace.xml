@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed8f7e37-d0bd-4deb-bdfc-ab5a8b22bdc1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/webservicestudio.iml___jb_tmp___" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webservicestudio.iml" afterPath="$PROJECT_DIR$/.idea/webservicestudio.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ed8f7e37-d0bd-4deb-bdfc-ab5a8b22bdc1" name="Default" comment="" />
     <ignored path="webservicestudio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -44,7 +40,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -134,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studios_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="studios_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/studios_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -660,7 +656,7 @@
       <workItem from="1495134352357" duration="2247000" />
       <workItem from="1496932620087" duration="4242000" />
       <workItem from="1497009432730" duration="12771000" />
-      <workItem from="1497297920006" duration="1371000" />
+      <workItem from="1497297920006" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="criação de arquivo">
       <created>1495135415788</created>
@@ -673,7 +669,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25288000" />
+    <option name="totallyTimeSpent" value="25553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="1307" height="744" extended-state="6" />
@@ -1064,14 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/studios_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-704">
@@ -1084,6 +1072,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/studios_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
