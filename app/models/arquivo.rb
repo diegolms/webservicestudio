@@ -1,6 +1,7 @@
 # -*- encoding : utf-8 -*-
 require 'digest/md5'
 class Arquivo < ActiveRecord::Base
+
   has_attached_file :arquivo
 
   def salvar_arquivo(params, request)
