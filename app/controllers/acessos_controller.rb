@@ -1,0 +1,2 @@
+class AcessosController < ApplicationController
+end
