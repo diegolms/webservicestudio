@@ -25,7 +25,7 @@ class StudiosController < ApplicationController
         result[:status] = 200
         result[:message] = "Studio criado com sucesso"
         result[:studio] = studio
-        result[:image] = studio.arquivo.url_local
+        result[:image] = studio.arquivo.url_original
       else
         result[:status] = 500
         result[:message] = studio.errors
