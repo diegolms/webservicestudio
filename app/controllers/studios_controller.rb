@@ -12,6 +12,12 @@ class StudiosController < ApplicationController
     begin
       result = Hash.new
       studio = Studio.new
+
+      arquivo = Arquivo.new
+      arquivo.salvar_arquivo(params, request)
+
+      studio.arquivo_id = arquivo.id
+
        studio.nome = "teste"
       # studio.latitude = "-3.084506666666667"
       # studio.longitude = "-60.000701666666664"
@@ -19,6 +25,7 @@ class StudiosController < ApplicationController
         result[:status] = 200
         result[:message] = "Studio criado com sucesso"
         result[:studio] = studio
+        result[:image] = studio.arquivo.url_local
       else
         result[:status] = 500
         result[:message] = studio.errors
@@ -32,4 +39,11 @@ class StudiosController < ApplicationController
 
       # p "params #{params}"
   end
+
+  def teste_arquivo
+    session[:id_arquivo_ordem_servico] = save_paperclip(params)
+    render :text => '{success:true}'
+  end
+
+
 end
